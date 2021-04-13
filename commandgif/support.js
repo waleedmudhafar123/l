@@ -1,7 +1,7 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
 const moment = require('moment');
-var ayarlar = require('../ayarlar.json');
+var config = require('../config.json');
 
 exports.run = async (client, message, args, msg) => {
 
