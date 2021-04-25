@@ -107,9 +107,9 @@ client.elevation = message => {
 client.login(config.token)
 
 
-//------------------------ Halka Açık Random Gif Pp -----------------------//
-//------------------------ Halka Açık Random Gif Pp -----------------------//
-//------------------------ Halka Açık Random Gif Pp -----------------------//
+//------------------------ kakwolf Random Gif Pp -----------------------//
+//------------------------ kakwolf Random Gif Pp -----------------------//
+//------------------------ kakwolf Random Gif Pp -----------------------//
 
 client.on("userUpdate", async(Revenge, NYKS) => {
   
@@ -128,6 +128,6 @@ Revenge.send(new Discord.Attachment(RevengePP))
 })
 })
 
-//------------------------ Halka Açık Random Gif Pp -----------------------//
-//------------------------ Halka Açık Random Gif Pp -----------------------//
-//------------------------ Halka Açık Random Gif Pp -----------------------//
+//------------------------ kakwolf Random Gif Pp -----------------------//
+//------------------------ kakwolf Random Gif Pp -----------------------//
+//------------------------ kakwolf Random Gif Pp -----------------------//
