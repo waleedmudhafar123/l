@@ -24,8 +24,7 @@ exports.conf = {
 
   enabled: true,
 
-  guildOnly: false,
-
+  guildOnly: false
   aliases: ['PANIME','Panime','PAnime','p anime'],
 
   permLevel: 0
