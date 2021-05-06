@@ -8,9 +8,9 @@ let result = Math.floor((Math.random() * replies.length));
   
 let gifembed = new Discord.MessageEmbed()
 
-.setTitle("Aesthetic Gif")
+.setTitle("[Aesthetic Gif](https://discord.gg/gwdAbxAnhg]")
 .setColor("RANDOM")
-.setFooter(`${message.author.username}#${message.author.discriminator}`, message.member.user.displayAvatarURL({ dynamic: true }))
+.setFooter(`Requested by ${message.author.username}#${message.author.discriminator}`, message.member.user.displayAvatarURL({ dynamic: true }))
 .setImage(replies[result]);
 
 message.channel.send(gifembed);
