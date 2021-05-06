@@ -9,7 +9,7 @@ const embed = new Discord.MessageEmbed()
     
 .setColor('RANDOM') 
 .setThumbnail(message.author.avatarURL({dynamic: "true"}))
-.setFooter(`${message.author.username}#${message.author.discriminator}`, message.member.user.displayAvatarURL({ dynamic: true }))
+.setFooter(`Requested by ${message.author.username}#${message.author.discriminator}`, message.member.user.displayAvatarURL({ dynamic: true }))
 .setAuthor(`Gif Help`)
 .setDescription(`
 **Info Commands**
