@@ -10,7 +10,7 @@ let gifembed = new Discord.MessageEmbed()
 
 .setTitle("Smoking Gif")
 .setColor("BLACK")
-.setFooter(`Requested by: ${message.author.username}#${message.author.discriminator}`, message.member.user.displayAvatarURL({ dynamic: true }))
+.setFooter(`Requested by ${message.author.username}#${message.author.discriminator}`, message.member.user.displayAvatarURL({ dynamic: true }))
 .setImage(replies[result]);
 
 message.channel.send(gifembed);
