@@ -12,7 +12,7 @@ let gifembed = new Discord.MessageEmbed()
 
 .setColor("RANDOM")
 
-.setFooter(`${message.author.tag} `, message.author.avatarURL)
+.setFooter(`Requested by ${message.author.username}#${message.author.discriminator}`, message.member.user.displayAvatarURL({ dynamic: true }))
 
 .setImage(replies[result]);
 
