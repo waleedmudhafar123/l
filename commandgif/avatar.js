@@ -13,7 +13,7 @@ return message.channel.send(new Discord.MessageEmbed()
                             
 .setDescription(`**${user.tag}**`)
 .setColor(`RANDOM`)
-.setFooter(`${message.author.username}#${message.author.discriminator}`, message.member.user.displayAvatarURL({ dynamic: true }))
+.setFooter(`Requested by ${message.author.username}#${message.author.discriminator}`, message.member.user.displayAvatarURL({ dynamic: true }))
 .setImage(user.displayAvatarURL({ dynamic: true })))
   
 };
