@@ -5,11 +5,9 @@ exports.run = (client, message) => {
 let sunucu = new Discord.MessageEmbed()
 
 .setThumbnail(message.guild.iconURL)
-
 .setColor("RANDOM")
 .setThumbnail(message.author.avatarURL({dynamic: "true"}))
 .setTitle("Server Info")
-
 .addField("Server name", `${message.guild.name}`)
 .addField("Server id", `${message.guild.id}`)
 .addField("Server owner", `${message.guild.owner}`)
