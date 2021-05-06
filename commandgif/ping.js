@@ -7,6 +7,7 @@ const darknes = new Discord.MessageEmbed()
 
 .setColor("RANDOM")
 .setDescription('Ping')
+.setFooter(`Requested by ${message.author.username}#${message.author.discriminator}`, message.member.user.displayAvatarURL({ dynamic: true }))
 
 let start = Date.now(); 
 let mesaj = await message.channel.send(darknes)
