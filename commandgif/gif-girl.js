@@ -8,7 +8,7 @@ let result = Math.floor((Math.random() * replies.length));
   
 let gifembed = new Discord.MessageEmbed()
 
-.setTitle("[Girl Gif](https://discord.gg/gwdAbxAnhg)")
+.setTitle("Girl Gifs")
 .setColor("RANDOM")
 .setFooter(`Requested by ${message.author.username}#${message.author.discriminator}`, message.member.user.displayAvatarURL({ dynamic: true }))
 .setImage(replies[result]);
