@@ -8,7 +8,7 @@ let result = Math.floor((Math.random() * replies.length));
 
 let gifembed = new Discord.MessageEmbed()
 
-.setTitle("[Animal Gif](https://discord.gg/gwdAbxAnhg)")
+.setTitle("Animal Gifs")
 
 .setColor("RANDOM")
 
